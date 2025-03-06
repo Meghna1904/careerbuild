@@ -1,3 +1,6 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
 body {
   margin: 0;
   min-height: 100vh;
@@ -14,12 +17,12 @@ body {
 }
 .navbar-brand {
   font-weight: 500;
-  color: #009970;
+  color: #38d39f;
   font-size: 24px;
 }
 
 .Login-button {
-  background-color: #009970;
+  background-color: #38d39f;
   color: #fff;
   font-size: 14px;
   padding: 8px 20px;
@@ -57,7 +60,7 @@ body {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: #009970;
+    background-color: #38d39f;
     visibility: hidden;
     transition: 0.3s ease-in-out;
   }
@@ -68,7 +71,7 @@ body {
   }
 }
 .hero-section {
-  background: url(https://www.colorhexa.com/009970.png) no-repeat center;
+  background: url(minibg.png) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 50vh;
@@ -121,36 +124,49 @@ body {
 }
 
 .file-input-label {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  background: #009970;
-  color: white;
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
   cursor: pointer;
-  transition: background 0.3s ease;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 250px;
+  transition: 0.5s;
 }
 
 .file-input-label:hover {
-  background: #00b383;
+  background-position: right;
 }
 
 .upload-btn {
-  background: #009970;
-  color: white;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
   border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: 0.5s;
 }
 
 .upload-btn:hover {
-  background: #00b383;
+  background-position: right;
 }
 .upload-status {
   margin-top: 20px;
